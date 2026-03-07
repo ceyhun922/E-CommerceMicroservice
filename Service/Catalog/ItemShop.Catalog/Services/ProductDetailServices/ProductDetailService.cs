@@ -14,8 +14,8 @@ namespace ItemShop.Catalog.Services.ProductDetailServices
         public ProductDetailService(IMapper mapper, IDatabaseSettings _databaseSettings)
         {
             var client = new MongoClient(_databaseSettings.ConnectionString);
-            var database = client.GetDatabase(_databaseSettings.CategoryCollectionName);
-            _collectionProductDetail = database.GetCollection<ProductDetail>(_databaseSettings.CategoryCollectionName);
+            var database = client.GetDatabase(_databaseSettings.DatabaseName);
+            _collectionProductDetail = database.GetCollection<ProductDetail>(_databaseSettings.ProductDetailCollectionName);
             _mapper = mapper;
         }
 

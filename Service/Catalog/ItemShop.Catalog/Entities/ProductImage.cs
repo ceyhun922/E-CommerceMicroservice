@@ -13,7 +13,7 @@ namespace ItemShop.Catalog.Entities
         public string ProductImage3 { get; set; }
         public bool ProductImageStatus { get; set; }
         public string ProductId { get; set; }
-
+        [BsonIgnore]
         public Product Product {get;set;}
 
 

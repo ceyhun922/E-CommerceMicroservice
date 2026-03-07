@@ -1,4 +1,7 @@
 using ItemShop.Catalog.Services.CategoryServices;
+using ItemShop.Catalog.Services.ProductDetailServices;
+using ItemShop.Catalog.Services.ProductImageServices;
+using ItemShop.Catalog.Services.ProductServices;
 using ItemShop.Catalog.Settings;
 using Microsoft.Extensions.Options;
 
@@ -17,6 +20,7 @@ builder.Services.Configure<DatabaseSettings>(
 
 builder.Services.AddSingleton<IDatabaseSettings>(sp =>
     sp.GetRequiredService<IOptions<DatabaseSettings>>().Value);
+    
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("CatalogWebAPI", policy =>
@@ -27,6 +31,9 @@ builder.Services.AddCors(options =>
     });
 });
 builder.Services.AddScoped<ICategoryService, CategoryServices>();
+builder.Services.AddScoped<IProductService, ProductService>();
+builder.Services.AddScoped<IProductDetailService, ProductDetailService>();
+builder.Services.AddScoped<IProductImageService, ProductImageService>();
 
 var app = builder.Build();
 
