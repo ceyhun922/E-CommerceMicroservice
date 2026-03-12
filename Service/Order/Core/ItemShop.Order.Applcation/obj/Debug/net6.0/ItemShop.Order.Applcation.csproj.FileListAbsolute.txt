@@ -1,0 +1,16 @@
+/Users/ceyhunyusif/Documents/ItemProject/Service/Order/Core/ItemShop.Order.Applcation/bin/Debug/net6.0/ItemShop.Order.Applcation.deps.json
+/Users/ceyhunyusif/Documents/ItemProject/Service/Order/Core/ItemShop.Order.Applcation/bin/Debug/net6.0/ItemShop.Order.Applcation.dll
+/Users/ceyhunyusif/Documents/ItemProject/Service/Order/Core/ItemShop.Order.Applcation/bin/Debug/net6.0/ItemShop.Order.Applcation.pdb
+/Users/ceyhunyusif/Documents/ItemProject/Service/Order/Core/ItemShop.Order.Applcation/bin/Debug/net6.0/ItemShop.Order.Domain.dll
+/Users/ceyhunyusif/Documents/ItemProject/Service/Order/Core/ItemShop.Order.Applcation/bin/Debug/net6.0/ItemShop.Order.Domain.pdb
+/Users/ceyhunyusif/Documents/ItemProject/Service/Order/Core/ItemShop.Order.Applcation/obj/Debug/net6.0/ItemShop.Order.Applcation.csproj.AssemblyReference.cache
+/Users/ceyhunyusif/Documents/ItemProject/Service/Order/Core/ItemShop.Order.Applcation/obj/Debug/net6.0/ItemShop.Order.Applcation.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ceyhunyusif/Documents/ItemProject/Service/Order/Core/ItemShop.Order.Applcation/obj/Debug/net6.0/ItemShop.Order.Applcation.AssemblyInfoInputs.cache
+/Users/ceyhunyusif/Documents/ItemProject/Service/Order/Core/ItemShop.Order.Applcation/obj/Debug/net6.0/ItemShop.Order.Applcation.AssemblyInfo.cs
+/Users/ceyhunyusif/Documents/ItemProject/Service/Order/Core/ItemShop.Order.Applcation/obj/Debug/net6.0/ItemShop.Order.Applcation.csproj.CoreCompileInputs.cache
+/Users/ceyhunyusif/Documents/ItemProject/Service/Order/Core/ItemShop.Order.Applcation/obj/Debug/net6.0/ItemShop.Order.Applcation.sourcelink.json
+/Users/ceyhunyusif/Documents/ItemProject/Service/Order/Core/ItemShop.Order.Applcation/obj/Debug/net6.0/ItemShop.F6A747A0.Up2Date
+/Users/ceyhunyusif/Documents/ItemProject/Service/Order/Core/ItemShop.Order.Applcation/obj/Debug/net6.0/ItemShop.Order.Applcation.dll
+/Users/ceyhunyusif/Documents/ItemProject/Service/Order/Core/ItemShop.Order.Applcation/obj/Debug/net6.0/refint/ItemShop.Order.Applcation.dll
+/Users/ceyhunyusif/Documents/ItemProject/Service/Order/Core/ItemShop.Order.Applcation/obj/Debug/net6.0/ItemShop.Order.Applcation.pdb
+/Users/ceyhunyusif/Documents/ItemProject/Service/Order/Core/ItemShop.Order.Applcation/obj/Debug/net6.0/ref/ItemShop.Order.Applcation.dll
