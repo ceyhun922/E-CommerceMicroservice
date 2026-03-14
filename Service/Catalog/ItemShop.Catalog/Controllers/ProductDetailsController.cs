@@ -1,10 +1,12 @@
 
 using ItemShop.Catalog.DTOs.ProductDetailDTOs;
 using ItemShop.Catalog.Services.ProductDetailServices;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ItemShop.Catalog.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("api/[controller]")]
 

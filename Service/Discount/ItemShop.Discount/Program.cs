@@ -1,8 +1,15 @@
 using ItemShop.Discount.Context;
 using ItemShop.Discount.Services;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 
 var builder = WebApplication.CreateBuilder(args);
-
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(opt =>
+{
+    opt.Authority =builder.Configuration["IdentityServerUrl"];
+    opt.Audience ="ResourceDiscount";
+    opt.RequireHttpsMetadata =false;
+}
+);
 // Add services to the container.
 
 builder.Services.AddControllers();
@@ -22,7 +29,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

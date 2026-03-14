@@ -77,3 +77,4 @@
 /Users/ceyhunyusif/Documents/ItemProject/Service/Order/Presertation/ItemShop.Order.WebApi/obj/Debug/net6.0/ItemShop.Order.WebApi.pdb
 /Users/ceyhunyusif/Documents/ItemProject/Service/Order/Presertation/ItemShop.Order.WebApi/obj/Debug/net6.0/ItemShop.Order.WebApi.genruntimeconfig.cache
 /Users/ceyhunyusif/Documents/ItemProject/Service/Order/Presertation/ItemShop.Order.WebApi/obj/Debug/net6.0/ref/ItemShop.Order.WebApi.dll
+/Users/ceyhunyusif/Documents/ItemProject/Service/Order/Presertation/ItemShop.Order.WebApi/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll

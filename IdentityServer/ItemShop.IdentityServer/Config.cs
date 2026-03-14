@@ -1,58 +1,80 @@
-﻿// Copyright (c) Brock Allen & Dominick Baier. All rights reserved.
-// Licensed under the Apache License, Version 2.0. See LICENSE in the project root for license information.
+﻿
 
-
-using IdentityServer4.Models;
 using System.Collections.Generic;
+using IdentityServer4;
+using IdentityServer4.Models;
 
 namespace ItemShop.IdentityServer
 {
     public static class Config
     {
-        public static IEnumerable<IdentityResource> IdentityResources =>
-                   new IdentityResource[]
-                   {
-                new IdentityResources.OpenId(),
-                new IdentityResources.Profile(),
-                   };
+        public static IEnumerable<ApiResource> ApiResources = new ApiResource[]
+        {
+            new ApiResource("Resourceatalog") {Scopes ={"CatalogFullPermission","CatalogReadPermission"}},
+            new ApiResource("ResourceDiscount") {Scopes ={"DiscountFullPermission","DiscountReadPermission" }},
+            new ApiResource("ResourceOrder") {Scopes ={"OrderFullPermission","OrderReadPermission" }},
+            new ApiResource(IdentityServerConstants.LocalApi.ScopeName)
+        };
 
-        public static IEnumerable<ApiScope> ApiScopes =>
-            new ApiScope[]
-            {
-                new ApiScope("scope1"),
-                new ApiScope("scope2"),
-            };
+        public static IEnumerable<IdentityResource> IdentityResources = new IdentityResource[]
+        {
+          new IdentityResources.OpenId(),
+          new IdentityResources.Email(),
+          new IdentityResources.Profile()
+        };
 
-        public static IEnumerable<Client> Clients =>
-            new Client[]
-            {
-                // m2m client credentials flow client
-                new Client
-                {
-                    ClientId = "m2m.client",
-                    ClientName = "Client Credentials Client",
+        public static IEnumerable<ApiScope> ApiScopes = new ApiScope[]
+        {
+            new ApiScope("CatalogFullPermission","Authorization to Full Catalog Transactions"),
+            new ApiScope("CatalogReadPermission","Authorization to Read Catalog Transactions"),
+            new ApiScope("OrderFullPermission","Authorization to Full Order Transactions"),
+            new ApiScope("OrderReadPermission","Authorization to Read Order Transactions"),
+            new ApiScope("OrderFullPermission","Authorization to Full Order Transactions"),
+            new ApiScope("DiscountFullPermission","Authorization to Full Discont Transactions"),
+            new ApiScope("DiscountReadPermission","Authorization to Read Discont Transactions"),
+            new ApiScope(IdentityServerConstants.LocalApi.ScopeName)
 
-                    AllowedGrantTypes = GrantTypes.ClientCredentials,
-                    ClientSecrets = { new Secret("511536EF-F270-4058-80CA-1C89C192F69A".Sha256()) },
+        };
 
-                    AllowedScopes = { "scope1" }
-                },
+        public static IEnumerable<Client> Clients => new Client[]
+        {
+           new Client
+           {
+                ClientId ="ItemShopVisitorId",
+                ClientName ="ItemShopVisitorUser",
+                AllowedGrantTypes =GrantTypes.ClientCredentials,
+                ClientSecrets ={new Secret("itemshopsecret".Sha256())},
+                AllowedScopes ={"CatalogReadPermission",
+                IdentityServerConstants.LocalApi.ScopeName}
+                
+           },
 
-                // interactive client using code flow + pkce
-                new Client
-                {
-                    ClientId = "interactive",
-                    ClientSecrets = { new Secret("49C1A7E1-0C79-4A89-A3D6-A37998FB86B0".Sha256()) },
+           new Client
+           {
+               ClientId ="ItemShopManagerId",
+               ClientName ="ItemShopManagerUser",
+               AllowedGrantTypes =GrantTypes.ClientCredentials,
+               ClientSecrets ={new Secret("itemshopsecret".Sha256())},
+               AllowedScopes ={"CatalogFullPermission","CatalogReadPermission","DiscountReadPermission",
+               IdentityServerConstants.LocalApi.ScopeName }
+           },
 
-                    AllowedGrantTypes = GrantTypes.Code,
+           new Client
+           {
+                ClientId ="ItemShopAdminId",
+               ClientName ="ItemShopAdminUser",
+               AllowedGrantTypes =GrantTypes.ClientCredentials,
+               ClientSecrets ={new Secret("itemshopsecret".Sha256())},
+               AllowedScopes ={"CatalogFullPermission","CatalogReadPermission","OrderFullPermission","OrderReadPermission","DiscountReadPermission","DiscountFullPermission",
+               IdentityServerConstants.LocalApi.ScopeName,
+               IdentityServerConstants.StandardScopes.Email,
+               IdentityServerConstants.StandardScopes.OpenId,
+               IdentityServerConstants.StandardScopes.Profile
+               },
+               AccessTokenLifetime =600
 
-                    RedirectUris = { "https://localhost:44300/signin-oidc" },
-                    FrontChannelLogoutUri = "https://localhost:44300/signout-oidc",
-                    PostLogoutRedirectUris = { "https://localhost:44300/signout-callback-oidc" },
+           }
+        };
 
-                    AllowOfflineAccess = true,
-                    AllowedScopes = { "openid", "profile", "scope2" }
-                },
-            };
     }
 }

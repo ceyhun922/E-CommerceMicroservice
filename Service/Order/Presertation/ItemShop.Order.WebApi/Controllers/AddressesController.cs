@@ -1,10 +1,12 @@
 using ItemShop.Order.Applcation.Features.CQRS.Commands.AddresCommands;
 using ItemShop.Order.Applcation.Features.CQRS.Queries.AdressQueries;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ItemShop.Order.WebApi.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("api/[controller]")]
     public class AddressesController : ControllerBase

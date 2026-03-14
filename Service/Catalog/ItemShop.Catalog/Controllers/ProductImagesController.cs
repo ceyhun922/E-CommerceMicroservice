@@ -1,9 +1,11 @@
 using ItemShop.Catalog.DTOs.ProductImageDTOs;
 using ItemShop.Catalog.Services.ProductImageServices;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ItemShop.Catalog.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("api/[controller]")]
 

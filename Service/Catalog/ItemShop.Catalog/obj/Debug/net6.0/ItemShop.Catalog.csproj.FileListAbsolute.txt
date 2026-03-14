@@ -52,3 +52,10 @@
 /Users/ceyhunyusif/Documents/ItemProject/Service/Catalog/ItemShop.Catalog/obj/Debug/net6.0/ItemShop.Catalog.pdb
 /Users/ceyhunyusif/Documents/ItemProject/Service/Catalog/ItemShop.Catalog/obj/Debug/net6.0/ItemShop.Catalog.genruntimeconfig.cache
 /Users/ceyhunyusif/Documents/ItemProject/Service/Catalog/ItemShop.Catalog/obj/Debug/net6.0/ref/ItemShop.Catalog.dll
+/Users/ceyhunyusif/Documents/ItemProject/Service/Catalog/ItemShop.Catalog/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/ceyhunyusif/Documents/ItemProject/Service/Catalog/ItemShop.Catalog/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/ceyhunyusif/Documents/ItemProject/Service/Catalog/ItemShop.Catalog/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
+/Users/ceyhunyusif/Documents/ItemProject/Service/Catalog/ItemShop.Catalog/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll
+/Users/ceyhunyusif/Documents/ItemProject/Service/Catalog/ItemShop.Catalog/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/ceyhunyusif/Documents/ItemProject/Service/Catalog/ItemShop.Catalog/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
+/Users/ceyhunyusif/Documents/ItemProject/Service/Catalog/ItemShop.Catalog/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll

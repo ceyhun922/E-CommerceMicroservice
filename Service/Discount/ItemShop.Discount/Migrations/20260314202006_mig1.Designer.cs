@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ItemShop.Discount.Migrations
 {
     [DbContext(typeof(DapperContext))]
-    [Migration("20260307211716_mig1")]
+    [Migration("20260314202006_mig1")]
     partial class mig1
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

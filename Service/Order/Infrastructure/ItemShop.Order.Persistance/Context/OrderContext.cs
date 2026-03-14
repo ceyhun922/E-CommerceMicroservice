@@ -7,7 +7,7 @@ namespace ItemShop.Order.Persistance.Context
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-           optionsBuilder.UseSqlServer("Server=localhost,1433;Database=ItemShopOrder;User=SA;Password=reallyStrongPwd123;TrustServerCertificate=True;");
+           optionsBuilder.UseSqlServer("Server=localhost,1440;Database=ItemShopOrder;User=SA;Password=reallyStrongPwd123;TrustServerCertificate=True;");
         }
 
         public DbSet<Address> Addresses {get;set;}

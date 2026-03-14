@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ItemShop.Order.Persistance.Migrations
 {
     [DbContext(typeof(OrderContext))]
-    [Migration("20260309154115_mig2")]
-    partial class mig2
+    [Migration("20260312015937_mig1")]
+    partial class mig1
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
