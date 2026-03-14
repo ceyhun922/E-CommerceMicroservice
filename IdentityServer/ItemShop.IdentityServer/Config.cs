@@ -29,7 +29,6 @@ namespace ItemShop.IdentityServer
             new ApiScope("CatalogReadPermission","Authorization to Read Catalog Transactions"),
             new ApiScope("OrderFullPermission","Authorization to Full Order Transactions"),
             new ApiScope("OrderReadPermission","Authorization to Read Order Transactions"),
-            new ApiScope("OrderFullPermission","Authorization to Full Order Transactions"),
             new ApiScope("DiscountFullPermission","Authorization to Full Discont Transactions"),
             new ApiScope("DiscountReadPermission","Authorization to Read Discont Transactions"),
             new ApiScope(IdentityServerConstants.LocalApi.ScopeName)
