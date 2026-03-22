@@ -1,0 +1,13 @@
+namespace ItemShop.Cargo.DTOs.CargoCustomerDTOs
+{
+    public class CreateCargoCustomerDto
+    {
+        public string Name { get; set; }
+        public string Surame { get; set; }
+        public string? Mail { get; set; }
+        public string? Phone { get; set; }
+        public string District { get; set; }
+        public string City { get; set; }
+        public string Address { get; set; }
+    }
+}

@@ -1,0 +1,12 @@
+/Users/ceyhunyusif/Documents/ItemProject/Service/Cargo/ItemShop.Cargo.Entity/bin/Debug/net6.0/ItemShop.Cargo.Entity.deps.json
+/Users/ceyhunyusif/Documents/ItemProject/Service/Cargo/ItemShop.Cargo.Entity/bin/Debug/net6.0/ItemShop.Cargo.Entity.dll
+/Users/ceyhunyusif/Documents/ItemProject/Service/Cargo/ItemShop.Cargo.Entity/bin/Debug/net6.0/ItemShop.Cargo.Entity.pdb
+/Users/ceyhunyusif/Documents/ItemProject/Service/Cargo/ItemShop.Cargo.Entity/obj/Debug/net6.0/ItemShop.Cargo.Entity.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ceyhunyusif/Documents/ItemProject/Service/Cargo/ItemShop.Cargo.Entity/obj/Debug/net6.0/ItemShop.Cargo.Entity.AssemblyInfoInputs.cache
+/Users/ceyhunyusif/Documents/ItemProject/Service/Cargo/ItemShop.Cargo.Entity/obj/Debug/net6.0/ItemShop.Cargo.Entity.AssemblyInfo.cs
+/Users/ceyhunyusif/Documents/ItemProject/Service/Cargo/ItemShop.Cargo.Entity/obj/Debug/net6.0/ItemShop.Cargo.Entity.csproj.CoreCompileInputs.cache
+/Users/ceyhunyusif/Documents/ItemProject/Service/Cargo/ItemShop.Cargo.Entity/obj/Debug/net6.0/ItemShop.Cargo.Entity.sourcelink.json
+/Users/ceyhunyusif/Documents/ItemProject/Service/Cargo/ItemShop.Cargo.Entity/obj/Debug/net6.0/ItemShop.Cargo.Entity.dll
+/Users/ceyhunyusif/Documents/ItemProject/Service/Cargo/ItemShop.Cargo.Entity/obj/Debug/net6.0/refint/ItemShop.Cargo.Entity.dll
+/Users/ceyhunyusif/Documents/ItemProject/Service/Cargo/ItemShop.Cargo.Entity/obj/Debug/net6.0/ItemShop.Cargo.Entity.pdb
+/Users/ceyhunyusif/Documents/ItemProject/Service/Cargo/ItemShop.Cargo.Entity/obj/Debug/net6.0/ref/ItemShop.Cargo.Entity.dll

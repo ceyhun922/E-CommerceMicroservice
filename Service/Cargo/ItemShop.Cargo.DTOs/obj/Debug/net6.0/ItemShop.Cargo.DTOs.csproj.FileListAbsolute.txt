@@ -1,0 +1,12 @@
+/Users/ceyhunyusif/Documents/ItemProject/Service/Cargo/ItemShop.Cargo.DTOs/bin/Debug/net6.0/ItemShop.Cargo.DTOs.deps.json
+/Users/ceyhunyusif/Documents/ItemProject/Service/Cargo/ItemShop.Cargo.DTOs/bin/Debug/net6.0/ItemShop.Cargo.DTOs.dll
+/Users/ceyhunyusif/Documents/ItemProject/Service/Cargo/ItemShop.Cargo.DTOs/bin/Debug/net6.0/ItemShop.Cargo.DTOs.pdb
+/Users/ceyhunyusif/Documents/ItemProject/Service/Cargo/ItemShop.Cargo.DTOs/obj/Debug/net6.0/ItemShop.Cargo.DTOs.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ceyhunyusif/Documents/ItemProject/Service/Cargo/ItemShop.Cargo.DTOs/obj/Debug/net6.0/ItemShop.Cargo.DTOs.AssemblyInfoInputs.cache
+/Users/ceyhunyusif/Documents/ItemProject/Service/Cargo/ItemShop.Cargo.DTOs/obj/Debug/net6.0/ItemShop.Cargo.DTOs.AssemblyInfo.cs
+/Users/ceyhunyusif/Documents/ItemProject/Service/Cargo/ItemShop.Cargo.DTOs/obj/Debug/net6.0/ItemShop.Cargo.DTOs.csproj.CoreCompileInputs.cache
+/Users/ceyhunyusif/Documents/ItemProject/Service/Cargo/ItemShop.Cargo.DTOs/obj/Debug/net6.0/ItemShop.Cargo.DTOs.sourcelink.json
+/Users/ceyhunyusif/Documents/ItemProject/Service/Cargo/ItemShop.Cargo.DTOs/obj/Debug/net6.0/ItemShop.Cargo.DTOs.dll
+/Users/ceyhunyusif/Documents/ItemProject/Service/Cargo/ItemShop.Cargo.DTOs/obj/Debug/net6.0/refint/ItemShop.Cargo.DTOs.dll
+/Users/ceyhunyusif/Documents/ItemProject/Service/Cargo/ItemShop.Cargo.DTOs/obj/Debug/net6.0/ItemShop.Cargo.DTOs.pdb
+/Users/ceyhunyusif/Documents/ItemProject/Service/Cargo/ItemShop.Cargo.DTOs/obj/Debug/net6.0/ref/ItemShop.Cargo.DTOs.dll

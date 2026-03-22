@@ -1,0 +1,16 @@
+/Users/ceyhunyusif/Documents/ItemProject/Service/Cargo/ItemShop.Cargo.DAL/bin/Debug/net6.0/ItemShop.Cargo.DAL.deps.json
+/Users/ceyhunyusif/Documents/ItemProject/Service/Cargo/ItemShop.Cargo.DAL/bin/Debug/net6.0/ItemShop.Cargo.DAL.dll
+/Users/ceyhunyusif/Documents/ItemProject/Service/Cargo/ItemShop.Cargo.DAL/bin/Debug/net6.0/ItemShop.Cargo.DAL.pdb
+/Users/ceyhunyusif/Documents/ItemProject/Service/Cargo/ItemShop.Cargo.DAL/bin/Debug/net6.0/ItemShop.Cargo.Entity.dll
+/Users/ceyhunyusif/Documents/ItemProject/Service/Cargo/ItemShop.Cargo.DAL/bin/Debug/net6.0/ItemShop.Cargo.Entity.pdb
+/Users/ceyhunyusif/Documents/ItemProject/Service/Cargo/ItemShop.Cargo.DAL/obj/Debug/net6.0/ItemShop.Cargo.DAL.csproj.AssemblyReference.cache
+/Users/ceyhunyusif/Documents/ItemProject/Service/Cargo/ItemShop.Cargo.DAL/obj/Debug/net6.0/ItemShop.Cargo.DAL.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ceyhunyusif/Documents/ItemProject/Service/Cargo/ItemShop.Cargo.DAL/obj/Debug/net6.0/ItemShop.Cargo.DAL.AssemblyInfoInputs.cache
+/Users/ceyhunyusif/Documents/ItemProject/Service/Cargo/ItemShop.Cargo.DAL/obj/Debug/net6.0/ItemShop.Cargo.DAL.AssemblyInfo.cs
+/Users/ceyhunyusif/Documents/ItemProject/Service/Cargo/ItemShop.Cargo.DAL/obj/Debug/net6.0/ItemShop.Cargo.DAL.csproj.CoreCompileInputs.cache
+/Users/ceyhunyusif/Documents/ItemProject/Service/Cargo/ItemShop.Cargo.DAL/obj/Debug/net6.0/ItemShop.Cargo.DAL.sourcelink.json
+/Users/ceyhunyusif/Documents/ItemProject/Service/Cargo/ItemShop.Cargo.DAL/obj/Debug/net6.0/ItemShop.8CB93E8D.Up2Date
+/Users/ceyhunyusif/Documents/ItemProject/Service/Cargo/ItemShop.Cargo.DAL/obj/Debug/net6.0/ItemShop.Cargo.DAL.dll
+/Users/ceyhunyusif/Documents/ItemProject/Service/Cargo/ItemShop.Cargo.DAL/obj/Debug/net6.0/refint/ItemShop.Cargo.DAL.dll
+/Users/ceyhunyusif/Documents/ItemProject/Service/Cargo/ItemShop.Cargo.DAL/obj/Debug/net6.0/ItemShop.Cargo.DAL.pdb
+/Users/ceyhunyusif/Documents/ItemProject/Service/Cargo/ItemShop.Cargo.DAL/obj/Debug/net6.0/ref/ItemShop.Cargo.DAL.dll
